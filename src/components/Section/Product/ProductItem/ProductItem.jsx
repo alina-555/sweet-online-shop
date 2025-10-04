@@ -11,7 +11,7 @@ function ProductItem({name,price,description,img,openModal}){
                     <h3 onClick={openModal}>{name}</h3>
                     <p>{description}</p>
                 </div>
-                <div className="price price2">
+                <div className="price">
                     <p>от <span>{price} ₽</span></p>
                 </div>
             </div>
