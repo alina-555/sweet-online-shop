@@ -1,0 +1,51 @@
+.product {
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product_img {
+    width: 285px;
+    height: 260px;
+    background-color: #FFF7EE;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_img img{
+    width: 211px;
+}
+
+.product_name_price{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product_name_des{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.product_name_des h3{
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+}
+
+.product_name_des p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1B1B1;
+    line-height: 21px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 400;
+}
+.price span{
+    font-weight: 700;
+}

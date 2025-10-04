@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+
+
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+ul, ol{
+  list-style: none;
+}
+@font-face {
+  font-family: 'font-nunito';
+  src: url('./assets/fonts/Nunito-Regular.ttf') format('truetype');
+}
+body{
+  font-family: font-nunito;
+}

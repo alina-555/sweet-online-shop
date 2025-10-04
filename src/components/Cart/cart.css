@@ -1,0 +1,27 @@
+.cart_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+
+.carts{
+    width: 385px;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.carts h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}

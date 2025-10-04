@@ -1,0 +1,47 @@
+.search_add_container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.search_form{
+    width: 764px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap:10px;
+    background-color: #F9F9F9;
+    border-radius: 15px;
+}
+.search_icon{
+    color: #ADADAD;
+}
+
+.search_input{
+    background-color: transparent;
+    border: none;
+}
+.search_input:focus{
+    outline: none;
+}
+
+.account_cart {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+
+}
+
+.account_cart button{
+    height: 100%;
+    border: 1px solid #FE5F00;
+    border-radius: 15px;
+    color: #FE5F00;
+    background-color: transparent;
+}
+.account_cart button:nth-child(1){
+    width: 110px;
+}
+.account_cart button:nth-child(2){
+    width: 50px;
+}

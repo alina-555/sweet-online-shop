@@ -1,0 +1,153 @@
+.filter_container{
+    width: 244px;
+    /* background-color: red; */
+    flex: 0 0 244px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.filter_container h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.filter_1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 25px;
+}
+.filter1_1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filter1_1 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.filter1_1 input {
+    width: 24px;
+    height: 24px;
+}
+.filter1_1 input[type='checkbox']:checked {
+   accent-color: #FE5F00;
+}
+.filter_2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 25px;
+}
+ h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.price_filter{
+    display: flex;
+    gap: 15px;
+
+}
+.price0 {
+    width: 90px;
+    height: 40px;
+    border: 1px solid #F0F0F0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.price0 input{
+    width: 50px;
+    border: none;
+    font-size: 14px;
+
+}
+
+.price0 input:focus {
+    outline: none;
+}
+
+.price0 span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #BBBBBB;
+}
+.filter_3 {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+.filter_ingredient{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.filter3_{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.filter_3_1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filter_3_1 input{
+    width: 24px;
+    height: 24px;
+}
+.filter_3_1 input[type='checkbox']:checked {
+    accent-color: #FE5F00;
+ }
+.filter_3_1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.filter_type{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.filter_type_1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.filter_type1_{
+    display: flex;
+    gap: 10px;
+}
+.filter_type1_ input{
+    width: 24px;
+    height: 24px;
+
+}
+.filter_type1_ input[type='radio']:checked{
+    accent-color: #FE5F00;
+}
+.filter_type1_ p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.filter_type_1 button{
+    width:244px;
+    height: 50px;
+    background-color: #FE5F00;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
